@@ -166,6 +166,9 @@ body{
   border-style: solid;
 
 }
+.button__primary:hover{
+  cursor: pointer;
+}
 .page__indicator{
   position: absolute;
   left: 65px;
