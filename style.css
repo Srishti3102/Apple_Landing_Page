@@ -107,7 +107,7 @@ body{
 }
 .container {
   width: 25%;
-  padding-right: 15px;
+  padding-right: 25px;
   padding-left: 15px;
   margin-right: 150px;
   margin-left: auto;
@@ -121,8 +121,8 @@ body{
   padding: 5px;
 }
 .colours{
-  padding-top: 190px;
-  padding-left: 50px;
+  padding-top: 180px;
+  padding-left: 80px;
   height: 25%;
 }
 .hero__image{
@@ -145,8 +145,29 @@ body{
 }
 .hero__description{
   display: block;
+  
+
 }
-button {
-  border: none;
-  cursor: pointer;
+.button__primary {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  left: 80px;
+  top: 450px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 36px;
+  color: white;
+  border-radius: 30px;
+  border-color: white;
+  background-color:#B6CCDA; 
+  border-style: solid;
+
+}
+.page__indicator{
+  position: absolute;
+  left: 65px;
+  top: 560px;
 }
