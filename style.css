@@ -4,49 +4,51 @@ body{
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
   }
   .navbar__brand {
-    width: 100px;
-    padding-left: 4%;
+    width: 5rem;
+    padding-left: 2%;
+    margin: 0%;
+    
   }
   .menu{
     list-style: none;
     display: flex;
+    margin-right:0% ;;
   }
   .background_box {
-    position: relative;
     margin-left: 5%;
     height:100%;
     width: 95%;
     margin-bottom: 0%;
     padding-bottom: 0%;
-    background-image: linear-gradient(
+    background: linear-gradient(
         to left,
         #C8DCE6 0%, 
         #B6CCDA 100%
       );
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 2.5rem 0rem 0rem 2.5rem;
     
 
   }
   .menu li {
-    height: 40px;
-    margin: 3px;
-    padding: 0px 22px;
+    height: 2.4rem;
+    margin: 1rem;
+    padding: 0rem 1rem;
     display: flex;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     color: white;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 40px;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
   }
   .menu li:hover{
     background-color: white;
     background-position: right center;
-    border-radius: 30px;
+    border-radius: 2rem;
     color: #B6CCDA;
     transition:  0.2s;
     cursor: pointer;
@@ -54,20 +56,20 @@ body{
   .navbar__search__and__basket{
     display: flex;
     align-items: center;
-    padding-right: 2%;
+    padding-right: 2rem;
     
   }
   .navbar__search , .navbar__line , .navbar__basket{
-    padding: 4%;
+    padding: 1rem;
     
   }
   .navbar__search{
     position: relative;
     display: flex;
-    width: 300px;
-    height: 14px;
+    width: 15rem;
+    height: 1rem;
     background: #d0dee7;
-    border-radius: 60px;
+    border-radius: 4rem;
     align-items: initial;
     color: white;
   }
@@ -76,72 +78,74 @@ body{
   }
   input{
     background: transparent;
-    border: 0px;
-    outline: 0px;
-    width: 220px;
+    border: 0rem;
+    outline: 0rem;
+    width: 20rem;
     color: white;
 }
 .sidebar{
+  position: relative;
   height: 100%;
-  width: 240px;
+  width: 5%;
   position: fixed;
-  padding: 20px 14px;
-}
-.sidebar .social__media__icons{
-  position: absolute;
-  bottom: 50px; 
-  padding-bottom: 30px;
-}
-.hero__container {
-  display: flex;  
+  padding: 2rem 1rem;
 }
 
-.hero__image__container {
+.menu_sidebar_logo{
   position: relative;
-  width: 100%;
+  padding-right: 2%;
 }
+
+ .social__media__icons{
+  position: relative;
+  bottom: 1rem; 
+  padding-top: 30rem;
+}
+.hero__container {
+  display: flex; 
+  padding-left: 5rem; 
+}
+
+
 .hero__image {
   position: relative;
-  width: 100%;
-  top: 60px;
+  width: 22rem;
+  top: 3.5rem;
 }
 .container {
-  width: 25%;
-  padding-right: 25px;
-  padding-left: 15px;
-  margin-right: 150px;
-  margin-left: auto;
+  padding-right: 2rem;
+  align-items: center;
 }
+
 .watch_color_variation{
-  position: relative;
   display: flex;
-  bottom: 0%;
+  padding-left: 10rem;  
 }
 .color_variants{
-  padding: 5px;
+  padding: 1rem;
 }
 .colours{
-  padding-top: 180px;
-  padding-left: 80px;
-  height: 25%;
+  padding-top: 11rem;
+  padding-left: 0rem;
+  height: 9rem;
 }
 .hero__image{
-  padding-left: 15px;
+  padding-left: 15rem;
 }
 .hero__text {
-  position: absolute;
-  width: 680px;
-  height: 258px;
-  left: 80px;
-  top: 150px;
+  position: relative;
+  width: 38rem;
+  height: 10rem;
+  left: 1rem;
+  top: 3rem;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 100;
-  font-size: 64px;
-  line-height: 70px;
-  letter-spacing: 0.02em;
+  font-size: 4rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.02rem;
   color: #FFFFFF;
-  align-content: center;
+  
 }
 .hero__description{
   display: block;
@@ -149,18 +153,18 @@ body{
 
 }
 .button__primary {
-  position: absolute;
-  width: 140px;
-  height: 40px;
-  left: 80px;
-  top: 450px;
+  position: relative;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 5rem;
+  padding: 0.1rem;
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 36px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 3rem;
   color: white;
-  border-radius: 30px;
+  border-radius: 3rem;
   border-color: white;
   background-color:#B6CCDA; 
   border-style: solid;
@@ -168,9 +172,9 @@ body{
 }
 .button__primary:hover{
   cursor: pointer;
+
 }
 .page__indicator{
-  position: absolute;
-  left: 65px;
-  top: 560px;
+  position: relative;
+  top: 8rem;
 }
