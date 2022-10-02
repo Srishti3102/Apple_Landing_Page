@@ -178,3 +178,104 @@ body{
   position: relative;
   top: 8rem;
 }
+.color__indicator{
+  display: flex;
+}
+
+.navbar__search__phone{
+  display: none;
+}
+@media screen and (max-width: 414px) {
+
+  .background_box{
+    margin-left: 0%;
+    height:93%;
+    width: 100%;
+    margin-bottom: 7%;
+    padding-bottom: 0%;
+    background: linear-gradient(
+        to left,
+        #C8DCE6 0%, 
+        #B6CCDA 100%
+      );
+    border-radius: 0rem 0rem 2.5rem 2.5rem;
+  }
+  .menu{
+    height:100rem;
+    background: #FFFFFF;
+    position: absolute;
+    right: 25%;
+    left:0%;
+    top: 0%;
+    margin-top: 0%;
+    display: block;
+    z-index: 3;
+    padding-top: 2rem;
+    display: none;
+
+  }
+
+  .menu li {
+    height: 2.4rem;
+    padding: 1rem 3rem;
+    display: block;
+    letter-spacing: 0.1rem;
+    color: #B6CCDA;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    display: none;
+  }
+
+  .menu li:hover{
+    background-color: #d9e5f7;
+    color: black;
+    cursor: pointer;
+    border-radius: 0%;
+    margin:0%;
+    display: none;    
+  }
+  .page__indicator{
+    display: none;
+  }
+  .watch_color_variation{
+    display: none; 
+  }
+  .sidebar{
+    position: relative;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .menu_sidebar_logo{
+    display: none;
+  }
+
+  .hero__container{
+    display: block;
+  }
+  .navbar__search{
+    display: none;
+  }
+  
+  .navbar__search__phone{
+    display: flex;
+    
+  }
+  .navbar__search__phone , .navbar__line , .navbar__basket{
+    padding: 1rem;
+    
+  }
+  .navbar__search__and__basket{
+    display: flex;
+    align-items: center;
+    padding-right: 0.5rem;
+    
+  }
+
+
+}
